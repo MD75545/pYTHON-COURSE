@@ -1,11 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
-{
-	int l,b,c;
-	printf("Enter two number");
-	scanf("%d %d",&l,&b);
-	c=l*b;
-	printf("Area of rectangle =%d",c);
+#define rectangle(l,b) (l*b)
+void main(){
+	int l=6,b=5,A;
+	A=rectangle(l,b);
+	printf("Area of rectangle=%d",A);
 	getch();
 }
